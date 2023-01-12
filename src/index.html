@@ -9,6 +9,14 @@
 </head>
 <body>
   <h1>Hey there!</h1>
+  <ngx-extended-pdf-viewer
+	[src]="'assets/example.pdf'"
+	[useBrowserLocale]="true"
+	[textLayer]="true"
+	[showHandToolButton]="true"
+	[showPresentationModeButton]="true"
+	[showDownloadButton]="false"
+></ngx-extended-pdf-viewer>
   <app-root></app-root>
 </body>
 </html>
